@@ -1,0 +1,53 @@
+body{
+    background-image:url(fondo.jpeg);
+    background-size: cover;
+}
+
+h1{
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 100px;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(226, 128, 145), 0 0 25px pink;
+    border: 1.5px outset #134d30;
+    border-radius: 8px;
+    background-color: #fff5e6;
+    box-shadow: 5px 5px 5px #194d30;
+    padding: 8px;
+    opacity: 0.5;
+}
+
+.subtitulo{
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 35px;
+    color: rgb(128, 120, 199);
+    text-shadow: 1px 1px 2px rgb(226, 128, 145), 0 0 25px pink;
+    padding: 8px;
+}
+
+p{
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 35px;
+    color: rgb(128, 120, 199);
+    text-shadow: 1px 1px 2px rgb(226, 128, 145), 0 0 25px pink;
+    padding: 8px;
+    
+}
+
+
+img{
+    width: 15%;
+}
+
+.logo{
+    width: 5%;
+    text-align: center;
+}
