@@ -1,5 +1,5 @@
 body {
-    background-image:url(../imagenes/fondoHielo.jpg);
+    background-image:url(../imagenes/fondohielo.png);
     background-size: cover;
     text-align: center;    
 }
@@ -11,24 +11,14 @@ h1{
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 100px;
-  color: black;
+  color:rgb(8, 19, 167);
   text-shadow: 1px 1px 2px rgb(226, 128, 145), 0 0 25px pink;
-  border: 1.5px outset #134d30;
+  border: 1.5px outset #2951a7;
   border-radius: 8px;
-  background-color: #fff5e6;
-  box-shadow: 5px 5px 5px #194d30;
+  background-color: #88b9e7;
+  box-shadow: 5px 5px 5px #2951a7;
   padding: 8px;
   opacity: 0.5;
-}
-
-p{
-  font-family: Verdana, Geneva, sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 20px; 
-  color: darkred;
-  text-shadow: rgb(233, 71, 17);
 }
 
 button {
@@ -37,23 +27,21 @@ button {
     font-size: 15px;
     cursor: pointer;
     text-align: center;
-    color:darkgoldenrod;
+    color:rgb(8, 19, 167);
     text-transform: uppercase;
-    background-color: #d7b8e6;
+    background-color: #88b9e7;
     border-radius: 20px;
 }
 
 figcaption{
   font-family: Verdana, Geneva, sans-serif;
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 30px; 
-  color: darkred;
-  border: 1.5px outset #134d30;
+  color: rgb(8, 19, 167);
+  border: 1.5px outset #2951a7;
   letter-spacing: 1px;
-  text-shadow: rgb(233, 71, 17);
-  background-color: #e3cce6;
+  background-color: #88b9e7;
   border-radius: 20px;
   opacity: 0.7;
 }
@@ -72,6 +60,10 @@ figcaption{
 }
 
 img{
-  height: 200px;
+  height: 250px;
   margin: 30px;
+}
+
+p{
+  font-size: 20px; 
 }

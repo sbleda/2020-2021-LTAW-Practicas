@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(170, 211, 228);
-    background-size: cover;
-    text-align: center;    
+  background-image:url(../imagenes/fondoskate.jpg);
+    background-size: cover; 
+    text-align: center;  
 }
 
 h1{
@@ -12,10 +12,10 @@ h1{
     font-size: 100px;
     color: black;
     text-shadow: 1px 1px 2px rgb(226, 128, 145), 0 0 25px pink;
-    border: 1.5px outset #134d30;
+    border: 1.5px outset #7c4a11;
     border-radius: 8px;
-    background-color: #fff5e6;
-    box-shadow: 5px 5px 5px #194d30;
+    background-color: #b49b76;
+    box-shadow: 5px 5px 5px #7c4a11;
     padding: 8px;
     opacity: 0.5;
 }
@@ -26,9 +26,9 @@ button {
     font-size: 15px;
     cursor: pointer;
     text-align: center;
-    color:darkgoldenrod;
+    color: darkred;
     text-transform: uppercase;
-    background-color: #cfe5f0;
+    background-color: #b49b76;
     border-radius: 20px;
   }
   
@@ -38,10 +38,10 @@ button {
     letter-spacing: 1px;
     font-size: 30px; 
     color: darkred;
-    border: 1.5px outset #134d30;
+    border: 1.5px outset #7c4a11;
     letter-spacing: 1px;
-    text-shadow: rgb(233, 71, 17);
-    background-color: #bce0e9;
+    text-shadow: rgb(73, 30, 16);
+    background-color: #b49b76;
     border-radius: 20px;
     opacity: 0.7;
     padding: 5px;
@@ -63,4 +63,8 @@ button {
   img{
     height: 300px;
     margin: 0px;
+  }
+
+  p{
+    font-size: 20px; 
   }
