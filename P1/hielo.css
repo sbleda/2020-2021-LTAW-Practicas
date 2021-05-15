@@ -31,7 +31,6 @@ p{
   text-shadow: rgb(233, 71, 17);
 }
 
-
 button {
     display: inline-block;
     padding: 15px 25px;
@@ -39,7 +38,40 @@ button {
     cursor: pointer;
     text-align: center;
     color:darkgoldenrod;
+    text-transform: uppercase;
     background-color: #d7b8e6;
-    border-radius: 12px;
+    border-radius: 20px;
 }
 
+figcaption{
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px; 
+  color: darkred;
+  border: 1.5px outset #134d30;
+  letter-spacing: 1px;
+  text-shadow: rgb(233, 71, 17);
+  background-color: #e3cce6;
+  border-radius: 20px;
+  opacity: 0.7;
+}
+
+#hielo{
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-left: 400px;
+}
+#hockey{
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-right: 400px;
+}
+
+img{
+  height: 200px;
+  margin: 30px;
+}
