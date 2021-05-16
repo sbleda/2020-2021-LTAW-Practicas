@@ -12,14 +12,12 @@ http.createServer(function (req, res) {
     tipo2= url.pathname.split('/')
     console.log(tipo2)
 
-
-
     let file = 'tienda.html'
     let type = "text/html"
-
+    
     if (tipo[1] == 'css'){
         type = "text/css" 
-        file = tipo2[tipo2.length - 1]
+        file = tipo2[tipo2.length - 2] + '/' + tipo2[tipo2.length - 1]
         console.log("dentro de css")
         console.log('')
     } 
@@ -46,6 +44,23 @@ http.createServer(function (req, res) {
         console.log("dentro de jpg")
         console.log('')
     } 
+
+    else if (tipo[1] == 'html'){
+        type = "text/html" 
+        file = tipo2[tipo2.length - 2] + '/' + tipo2[tipo2.length - 1]
+        console.log(file)
+        console.log("dentro de html")
+        console.log('')
+        if ( tipo2[tipo2.length - 1] == 'tienda.html'){
+            file = 'tienda.html';
+            console.log(file)
+            console.log("dentro de html bhjbhjhj")
+            console.log('')
+
+        }
+
+    }
+
 
     fs.readFile(file, function(err, data){
 
