@@ -3,12 +3,9 @@
     "description": "Mi primer proyecto",
     "version": "0.0.1",
     "author": "Sandra Bleda Fernández",
-    "main": "Ej-02.js",
+    "main": "Ej-03.js",
     "license": "GPL-3.0",
     "dependencies": {
-        "colors": "^1.4.0"
-    },
-    "scripts": {
-        "start": "node Ej-02.js"
+        "express": "^4.17.1"
     }
 }
