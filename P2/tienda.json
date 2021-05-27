@@ -49,9 +49,9 @@
 
     "usuarios": [
         { 
-            "login": "pepe_18",
-            "nombre": "pepe" ,
-            "correo": "pepecorreo@gmail.com"
+            "login": "root5",
+            "nombre": "root" ,
+            "correo": "root@gmail.com"
         }, 
         { 
             "login": "luisG99",
