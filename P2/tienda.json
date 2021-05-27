@@ -1,0 +1,71 @@
+{
+    "Productos": [
+        {"monopatines": [
+            {
+                "nombre": "monopatin clasico",
+                "descripcion": "Monopatin de madera de arce con llamas en las ruedas, modelo clásico, sperfecto para iniciación y perfeccionamiento de street o rampa. Ruedas duras y resistentes para practicar en parques o asfalto. Monopatin sólido y resistente",
+                "precio": 30,
+                "stock": 12
+            },
+            {
+                "nombre": "Monopatin hawaiano",
+                "descripcion": "Monopatin de madera con estampado hawaiano, tamaño medio, perfecto para desplazarse fácilmente por la ciudad y pasear. Asegura una gran estabilidad. Ruedas blandas para una alta comodidad de desplazamiento incluso en asfalto rugoso",
+                "precio": 80,
+                "stock": 6
+            }
+        ] },
+
+        { "ruedas": [
+            {
+                "nombre": "Patines de ruedas artisticos",
+                "descripcion": "Patines quad para perfeccionamiento del deporte. Aptos para competición de nivel medio y todos los saltos simeplres. Buena calidad de desplazamiento y excelente comodidad",
+                "precio": 176,
+                "stock": 4
+            },
+            {
+                "nombre": "Patines de ruedas en linea",
+                "descripcion":"Patines fitness de adultos para travesías de media distancia (10km a 20km). Precisos y cómodos, proporcionan un deslizamiento de calidad. Perfectos para la iniciación en las travesías",
+                "precio": 66,
+                "stock": 6
+            }
+        ] },
+
+        { "hielo": [
+            {
+                "nombre": "Patines de hielo artisticos",
+                "descripcion": "Patines cómodos y abrigados, perfectos para el patinaje en club a nivel medio. Comodidad tras largas sesiones de entrenamiento",
+                "precio":254,
+                "stock": 2
+            },
+
+            {
+                "nombre": "Patines de hockey sobre hielo",
+                "descripcion": "Patines diseñados para la práctica en club. Perfectos para entrenar, progresar y jugar partidos",
+                "precio": 128,
+                "stock": 4
+            }
+        ] }
+    ],
+
+    "usuarios": [
+        { 
+            "login": "pepe_18",
+            "nombre": "pepe" ,
+            "correo": "pepecorreo@gmail.com"
+        }, 
+        { 
+            "login": "luisG99",
+            "nombre": "luis" ,
+            "correo": "luiscorreo@gmail.com"
+        }  
+    ],
+
+    "pedidos": [
+        { 
+            "usuario": "",
+            "direccion": "" ,
+            "tarjeta": "",
+            "productos": ""
+        }
+    ]
+}
