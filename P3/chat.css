@@ -1,0 +1,51 @@
+body {
+    background-color:pink;
+    text-align: center;    
+}
+
+
+#usuario{
+    background-color: #88b9e7;
+    font-family: sans-serif; 
+    font-size: 18px; 
+    font-weight: 400; 
+    color: #ffffff; 
+    background: #4b6fc9;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#msg_entry{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #4b6fc9;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#bloque {
+    width: 800px;
+    min-height: 600px;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 15px;
+    margin-left: 500px;
+    border-style: double;
+    text-align: center;   
+    background-color: #b7bcd8; 
+}
+
+h3{
+   font-size: 25px; 
+   color: rgb(5, 34, 88);
+   font-style: oblique bold;
+}
+
+h2{
+    font-size: 35px; 
+    color: rgb(5, 34, 88);
+ }
