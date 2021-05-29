@@ -89,14 +89,8 @@ io.on('connect', (socket) => {
     else{
       io.send(usuario + ":" + mensaje);
     }
-
-    //-- Reenviarlo a todos los clientes conectados
   });
-
 });
-
-
-
 
 //-- Lanzar el servidor HTTP
 //-- ¡Que empiecen los juegos de los WebSockets!
