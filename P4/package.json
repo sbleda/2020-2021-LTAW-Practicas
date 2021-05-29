@@ -1,0 +1,13 @@
+{
+  "name": "practica4",
+  "version": "1.0.0",
+  "description": "practica 4 LTAW",
+  "main": "main.js",
+  "author": "Sandra",
+  "scripts": {
+    "start": "electron ."
+},
+  "dependencies": {
+    "electron": "^13.0.1"
+  }
+}
