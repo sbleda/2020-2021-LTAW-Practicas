@@ -1,0 +1,70 @@
+body {
+  background-image:url(../imagenes/fondoskate.jpg);
+    background-size: cover; 
+    text-align: center;  
+}
+
+h1{
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 100px;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(226, 128, 145), 0 0 25px pink;
+    border: 1.5px outset #7c4a11;
+    border-radius: 8px;
+    background-color: #b49b76;
+    box-shadow: 5px 5px 5px #7c4a11;
+    padding: 8px;
+    opacity: 0.5;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    color: darkred;
+    text-transform: uppercase;
+    background-color: #b49b76;
+    border-radius: 20px;
+  }
+  
+  figcaption{
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 30px; 
+    color: darkred;
+    border: 1.5px outset #7c4a11;
+    letter-spacing: 1px;
+    text-shadow: rgb(73, 30, 16);
+    background-color: #b49b76;
+    border-radius: 20px;
+    opacity: 0.7;
+    padding: 5px;
+  }
+  
+  #skate1{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-left: 400px;
+  }
+  #skate2{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-right: 400px;
+  }
+  
+  img{
+    height: 300px;
+    margin: 0px;
+  }
+
+  p{
+    font-size: 20px; 
+  }

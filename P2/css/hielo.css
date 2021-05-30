@@ -1,0 +1,69 @@
+body {
+    background-image:url(../imagenes/fondohielo.png);
+    background-size: cover;
+    text-align: center;    
+}
+  
+
+h1{
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 100px;
+  color:rgb(8, 19, 167);
+  text-shadow: 1px 1px 2px rgb(226, 128, 145), 0 0 25px pink;
+  border: 1.5px outset #2951a7;
+  border-radius: 8px;
+  background-color: #88b9e7;
+  box-shadow: 5px 5px 5px #2951a7;
+  padding: 8px;
+  opacity: 0.5;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    color:rgb(8, 19, 167);
+    text-transform: uppercase;
+    background-color: #88b9e7;
+    border-radius: 20px;
+}
+
+figcaption{
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30px; 
+  color: rgb(8, 19, 167);
+  border: 1.5px outset #2951a7;
+  letter-spacing: 1px;
+  background-color: #88b9e7;
+  border-radius: 20px;
+  opacity: 0.7;
+}
+
+#hielo{
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-left: 400px;
+}
+#hockey{
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-right: 400px;
+}
+
+img{
+  height: 250px;
+  margin: 30px;
+}
+
+p{
+  font-size: 20px; 
+}
