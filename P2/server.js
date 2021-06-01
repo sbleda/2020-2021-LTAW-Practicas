@@ -9,22 +9,10 @@ http.createServer(function (req, res) {
     const url = new URL(req.url, 'http://' + req.headers['host']);
     tipo= url.pathname.split('.')
     tipo2= url.pathname.split('/')
-    console.log(url.pathname)
+    console.log(tipo2)
     let file = 'tienda.html'
     let type = "text/html"
-    
-    if (url.pathname == '/registro.html'){
-        file = 'registro.html'
-        type = "text/html"
-    }
-    if (url.pathname == '/procesar') {
-        content_type = "text/html";
-        content = 'resp.html';
-    }
 
-    else{
-
-    
     if (tipo[1] == 'css'){
         type = "text/css" 
         file = tipo2[tipo2.length - 2] + '/' + tipo2[tipo2.length - 1]
@@ -51,7 +39,12 @@ http.createServer(function (req, res) {
             file = 'tienda.html';
         }
     }
-}
+
+    else if (tipo2 == 'procesar') {
+      content_type = "text/html";
+      content = 'resp.html';
+  }
+
 
     fs.readFile(file, function(err, data){
 
